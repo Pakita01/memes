@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CatAAS API Demo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h1>Bienvenid@ a Generador de memes</h1>
+  <form id="formularioTexto">
+    <input type="text" id="texto_meme">
+    <label for="tamanoTexto">Tamaño del Texto:</label>
+    <input type="number" id="tamanoTexto" name="tamanoTexto" value="30">
+    
+    <label for="colorTexto">Color del Texto:</label>
+    <input type="color" id="colorTexto" name="colorTexto" value="#FFFFFF">
+    
+    <button type="button" id="actualizar">Actualizar Texto</button>
+  </form>
+  <button id="catButton">Generar meme</button>
+
+  <canvas id="canvas">
+
+  </canvas>
+  <a id="downloadButton" >Download Cat Image</a>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
